@@ -10,7 +10,7 @@ context('CSS', () => {
       .should('have.css', 'background-color', 'rgb(102, 202, 100)')
     cy.get('.page-title')
       .should('have.css', 'color', 'rgb(173, 255, 47)')
-    cy.get('nav')
+    cy.get('header')
       .should('have.css', 'background-color', 'rgb(196, 0, 0)')
     cy.get('footer')
       .should('have.css', 'background-color', 'rgb(40, 40, 40)')

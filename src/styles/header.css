@@ -1,0 +1,56 @@
+
+@font-face{
+    font-family: Montserrat;
+    src: url(../fonts/Montserrat-Regular.ttf)
+} 
+.header__content{
+    width: 1248px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+}
+.header{
+    padding: 10px;
+    background: #191720AA;
+    mix-blend-mode: normal;
+   
+}
+.menu{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: Montserrat;
+    text-transform: uppercase;
+    padding: 5px;
+}
+.icon{
+color: #00B0FF;
+padding: 0 5px;
+}
+.menu:hover {
+    color:  black;
+    background-color: #FFFFFF;
+    border-radius: 25px;
+}
+.icon:hover {
+    color:  #FFFFFF;
+}
+.logo{
+    width: 50px;
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+}
+.icon{
+    margin: 0 10px;
+}
+.icons__cart{
+    position: relative;
+}
+.icons__top{
+    position: absolute;
+    right: -2px;
+    top: 0;
+}
